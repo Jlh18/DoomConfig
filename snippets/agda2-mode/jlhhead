@@ -1,8 +1,9 @@
 # -*- mode: snippet -*-
-# name: cubical header
-# uuid: cubical_header
-# key: /head
+# name: jlh header
+# uuid: jlh_header
+# key: /jlhhead
 # --
+{-# OPTIONS --cubical #-}
 module `(replace-regexp-in-string "/" "."
        (file-relative-name (file-name-sans-extension (buffer-file-name))
        (file-name-directory

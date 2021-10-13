@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: details
+# key: /details
+# --
+.. raw:: html
+
+   <p>
+   <details>
+   <summary>$1</summary>
+
+$2
+
+.. raw:: html
+
+   </details>
+   </p>

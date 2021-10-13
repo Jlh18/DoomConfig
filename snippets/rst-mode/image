@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: image
+# key: /image
+# uuid: image
+# --
+.. image:: ${1:path}
+   :width: ${2:1000}
+   :alt: ${3:description}
+
+$0

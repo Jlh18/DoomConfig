@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: func
+# uuid: func
+# key: /func
+# --
+${1:name} : ${2:type}
+$1 $0 = ?

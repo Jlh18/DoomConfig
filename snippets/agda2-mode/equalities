@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: equalities
+# uuid: equalities
+# key: /eq
+# --
+$1 ≡⟨ ? ⟩ $2 ∎

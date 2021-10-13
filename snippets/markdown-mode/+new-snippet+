@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: details
+# key: /details
+# --
+<p>
+<details>
+<summary>$1</summary>
+
+$2
+
+</details>
+</p>

@@ -94,3 +94,4 @@
  :map evil-insert-state-map
  :desc "Move cursor vertically up ARG lines"
  "C-'" #'previous-line)
+

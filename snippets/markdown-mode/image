@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: image
+# key: /image
+# expand-env: ((yas-indent-line 'fixed))
+# --
+<img src="images/$1.png"
+     alt="${2:$1}"
+     width="${3:1000}"
+     class="center"/>

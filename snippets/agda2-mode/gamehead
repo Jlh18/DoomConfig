@@ -1,12 +1,12 @@
 # -*- mode: snippet -*-
-# name: cubical header
-# uuid: cubical_header
-# key: /head
+# name: game header
+# uuid: game_header
+# key: /gamehead
 # --
 module `(replace-regexp-in-string "/" "."
        (file-relative-name (file-name-sans-extension (buffer-file-name))
        (file-name-directory
-       "/home/jlh/Work/agda/JlhLib/jlh.agda-lib"))
+       "/home/jlh/Work/agda/TheHoTTGame/HoTTGameLib.agda-lib"))
        )` where
 
 open import Cubical.Core.Everything

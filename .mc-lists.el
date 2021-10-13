@@ -4,8 +4,12 @@
 (setq mc/cmds-to-run-for-all
       '(
         +multiple-cursors/evil-mc-toggle-cursor-here
+        agda2-load
         counsel-M-x
         doom/backward-to-bol-or-indent
+        doom/forward-to-last-non-comment-or-eol
+        drag-stuff-down
+        drag-stuff-up
         eri-indent
         evil-delete-back-to-indentation
         evil-delete-backward-char-and-join
@@ -16,16 +20,26 @@
         evil-insert
         evil-next-line
         evil-org-delete
+        evilnc-comment-or-uncomment-lines
+        indent-for-tab-command
         lean-tab-indent
+        markdown-cycle
         markdown-outdent-or-delete
         org-cycle
+        org-yank
+        yas-expand
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        +snippets/delete-forward-char-or-field
+        agda2-goal-and-context-and-checked
+        evil-backward-char
+        evil-mouse-drag-region
         evil-normal-state
         mouse-set-region
         org-delete-char
         org-self-insert-command
+        overwrite-mode
         undo-fu-only-undo
         ))
